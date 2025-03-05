@@ -1,11 +1,18 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import InitialScreen from '../Screens/InitialScreen';
+
+//                        react native 
 import TextComponent from '../Screens/RnBasic/Text';
 import ImageComponent from '../Screens/RnBasic/Image';
 import InputComponent from '../Screens/RnBasic/Input';
 import StyleSheetComponent from '../Screens/RnBasic/StyleSheet';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+//                            react 
+
+import ControlledVsUncontrolled from '../Screens/React/ControlledVsUncontrolled';
+
 
 //                        React hooks
 
@@ -41,6 +48,16 @@ const AppNavigation = () => {
             component={StyleSheetComponent}
             options={{animation: 'none'}}
           />
+
+          {/* react */}
+
+          <Stack.Screen
+            name="ControlledVsUncontrolled"
+            component={ControlledVsUncontrolled}
+            options={{animation: 'none'}}
+          />
+
+
 
           {/* React Hooks */}
 

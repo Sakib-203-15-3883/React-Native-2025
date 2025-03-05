@@ -19,6 +19,7 @@ const InitialScreen = () => {
     { title: 'Input Component', screen: 'InputComponent' },
     { title: 'StyleSheet', screen: 'StyleSheetComponent' },
     { title: 'useRef', screen: 'UseRef' },
+    { title: 'ControlledVsUncontrolled', screen: 'ControlledVsUncontrolled' },
   ];
 
   
