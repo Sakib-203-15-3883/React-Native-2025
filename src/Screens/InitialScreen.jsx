@@ -20,6 +20,8 @@ const InitialScreen = () => {
     { title: 'StyleSheet', screen: 'StyleSheetComponent' },
     { title: 'useRef', screen: 'UseRef' },
     { title: 'ControlledVsUncontrolled', screen: 'ControlledVsUncontrolled' },
+    { title: 'SharedElementExample', screen: 'SharedElementExampleNavigation' },
+    { title: 'TransitionExample2', screen: 'SharedElementTransitionExample2' },
   ];
 
   
